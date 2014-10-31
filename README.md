@@ -1,4 +1,4 @@
 online-attendance
 =================
 
-This dummy application helps filling attendance of college students.
+This dummy mobile application helps filling online attendance.
