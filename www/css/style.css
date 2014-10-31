@@ -1,0 +1,199 @@
+/* Empty. Add your own CSS if you like */
+.bar-stable .button{
+	color:#fff;
+}
+.bar-stable .button:hover{
+	color:#f2f2f2;
+}
+.bar-stable .button:active{
+	color:#f2f2f2;
+}
+#header-logo{
+	margin:20px auto;
+	text-align:center;
+	padding:1px;
+}
+.bg-color{
+	background-color: #193441;
+}
+#login-form-cont{
+	background-color: #fff;
+	width:93%;
+	overflow:auto;
+	margin:0 auto;
+	padding:16px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.info{
+	text-align: center;
+	font-size:.9em;
+	margin-top:20px;
+}
+#gclogo{
+	margin-top: 12px;
+}
+#tech-partner{
+	vertical-align: top;
+	font-size: 0.78em;
+	margin:4px 0 0 5px;
+	display:inline-block;
+}
+
+
+/* Custom Select Box CSS */
+.options-cont{
+	margin:10px 0 5px 0;
+}
+.select-box-title{
+	margin:0 6%;
+	font-size:1.2em;
+	color:#193441;
+	font-weight:bold;
+}
+.select-box-cont{
+	width: 90%;
+	border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	font-size:15px;
+	line-height: 39px;
+	position:relative;
+	display:inline-block;
+	margin: 5px 5% 0;
+}
+.selected-opt-val{
+	padding: 0 2% !important;
+	background-color: #4bb7b9;
+	border: 1px solid #4bb7b9;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px 0 0 5px;
+	text-align: center;
+	float:left;
+	width:85%;
+	font-size:1.2em;
+	line-height:2.34em;
+}
+.select-box-cont > .icon-dropdown{
+	width: 15%;
+	text-align: center;
+	background: #11a9ac;
+	border-radius: 0px 5px 5px 0px;
+	float:left;
+	display:inline-block;
+	border: 1px solid #11A0A3;
+	font-size:1.4em;
+	line-height:2em;
+}
+.select-icon{
+	color: #fff;
+	display: inline-block;
+	top: 2px;
+	position: relative;
+}
+.select-box-cont ul{
+	position:absolute;
+	z-index:99;
+	top: 37px;
+	left:0;
+	width:100%;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	box-shadow:0 2px 5px #777;
+	-webkit-box-shadow:0 2px 5px #777;
+	-moz-box-shadow:0 2px 5px #777;
+	margin-bottom:20px;
+	text-align: center;
+}
+.select-box-cont ul li{
+	border-bottom:1px solid #ccc;
+	background-color:#f6f6f6;
+	padding:0 3% !important;
+	line-height:3em;
+}
+.select-box-cont ul li:active{
+	background-color:#e2e2e2;
+}
+
+.displayNone{
+	display:none !important;
+}
+
+.displayBlock{
+	display:block !important;
+}
+
+/*Next button css*/
+
+#doAttendance{
+	padding:0 40px;
+}
+#nextAttendance{
+	margin-top:60px;
+}
+
+/* Fill attendance page*/
+
+.rowItem{
+	height:80px;
+	border-bottom:1px solid #aaa;
+}
+.rowImg{
+	width:22%;
+	height:100%;
+	text-align:center;
+	padding:10px;
+	display:inline-block;
+	overflow:auto;
+}
+
+.rowImg img{
+	border: 1px solid #c6c6c6;
+	padding: 4px;
+	border-radius: 34px;
+	width: 60px;
+	height: 60px;
+}
+.rowDetails{
+	width:54%;
+	padding:4px;
+	display:inline-block;
+	height:100%;
+	overflow:auto;
+}
+
+.rowCheck{
+	width:22%;
+	padding:4px;
+	display:inline-block;
+	height:100%;
+	overflow:auto;
+	text-align:center;
+}
+.studName{
+	font-size:1.4em;
+	line-height:70px;
+}
+
+.rowCheck > .checkbox input:before, .checkbox-icon:before {
+border-radius: 33px;
+}
+
+.rowCheck > .checkbox input:after, .checkbox-icon:after {
+top: 30%;
+left: 28%;
+width: 28px;
+height: 15.33333px;
+}
+.rowCheck > .checkbox input, .checkbox-icon {
+width: 60px;
+height: 60px;
+}
+
+.rowCheck > .checkbox input:before, .checkbox .checkbox-icon:before {
+border-color: #0A9D00;
+}
+
+.rowCheck > .checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before {
+background: #0DC800;
+}

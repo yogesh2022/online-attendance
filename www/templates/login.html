@@ -1,0 +1,42 @@
+<ion-view >
+	<div class="bar bar-header bar-royal">
+	  <div class="h1 title">Login</div>
+	</div>
+
+
+  <ion-content class="bg-color has-header">
+    <div id="header-logo">
+    	<img src="img/logo_26.png" width="100%" />
+    </div>
+    <div id="login-form-cont">
+    	<center><h4>Attendance Login</h4></center>
+    	<div class="list">
+			  <label class="item item-input">
+			    <span class="input-label">Username</span>
+			    <input type="text" id="uname" maxlength="50">
+			  </label>
+			  <label class="item item-input">
+			    <span class="input-label">Password</span>
+			    <input type="password" id="passwd" maxlength="30">
+			  </label>
+			</div>
+			<button id="doLogin" class="button button-block button-positive" ng-model="checkUser" ng-click="checkUser()">
+			  Login
+			</button>
+			<div class="info">
+				<p>Use the following credentials:</p>
+				<p>User Name : Admin</p>
+				<p>Password : admin</p>
+			</div>
+    </div>
+  </ion-content>
+  <div class="bar bar-footer">
+	  <div class="title">
+	  	<img id="gclogo" src="img/gclogo.png"/>
+	  	<span id="tech-partner">&mdash; Technology Partner</span>
+	  </div>
+	</div>
+</ion-view>
+
+
+

@@ -1,0 +1,23 @@
+<ion-side-menus>
+  <ion-pane ion-side-menu-content drag-content="main.isDragable" ng-click="changeClass()">
+    <ion-nav-view name="menuContent" animation="slide-in-right"></ion-nav-view>
+  </ion-pane>
+  <ion-side-menu side="left" width="60">
+    <ion-content>
+      <ion-list>
+        <ion-item nav-clear menu-close href="#/app/attendance">
+          <img width="32" src="img/attendance.png"/>
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/assesment">
+          <img width="32" src="img/assesment.png"/>
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/settings">
+          <img width="32" src="img/password.png"/>
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/logout">
+          <img width="32" src="img/logout.png"/>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

@@ -1,0 +1,64 @@
+<div class="bar bar-header bar-royal">
+	<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  <div class="h1 title">Attendance</div>
+</div>
+
+
+<ion-view hide-back-button="true">
+  <ion-content class="has-header">
+  	<center style="margin-bottom:30px;"><h4>Welcome <b> John Smith</b></h4></center>
+  	<!-- Semester Selection -->
+  	<div class="options-cont">
+  		<p class="select-box-title" ></p>
+	    <div id="selectSemester" class="select-box-cont" ng-click="showSemester(); $event.stopPropagation(); ">
+				<p class="selected-opt-val" >
+					{{selectedSemesterVal || semester[0].name}}
+				</p>
+				<p class="icon-dropdown">
+					<i class="select-icon ion-chevron-down"></i>
+				</p>
+				<ul class="options-List-Cont displayNone" id="opt">
+					<li ng-repeat="c in semester" ng-click="selectedSemester(c); $event.stopPropagation();">{{c.name}}</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- Course Selection -->
+		<div class="options-cont">
+  		<p class="select-box-title" ></p>
+	    <div id="selectCourse" class="select-box-cont" ng-click="showCourse(); $event.stopPropagation(); ">
+				<p class="selected-opt-val" >
+					{{selectedCourseVal || course[0].name}}
+				</p>
+				<p class="icon-dropdown">
+					<i class="select-icon ion-chevron-down"></i>
+				</p>
+				<ul class="options-List-Cont displayNone" id="optCourse">
+					<li ng-repeat="c in course" ng-click="selectedCourse(c); $event.stopPropagation();">{{c.name}}</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- Paper Selection -->
+		<div class="options-cont">
+  		<p class="select-box-title" ></p>
+	    <div id="selectPaper" class="select-box-cont" ng-click="showPaper(); $event.stopPropagation(); ">
+				<p class="selected-opt-val" >
+					{{selectedPaperVal || paper[0].name}}
+				</p>
+				<p class="icon-dropdown">
+					<i class="select-icon ion-chevron-down"></i>
+				</p>
+				<ul class="options-List-Cont displayNone" id="optPaper">
+					<li ng-repeat="c in paper" ng-click="selectedPaper(c); $event.stopPropagation();">{{c.name}}</li>
+				</ul>
+			</div>
+		</div>
+		
+		<center id="nextAttendance">
+			<button id="doAttendance" class="button icon-right ion-chevron-right button-positive" ng-click="fillAttendance()">
+				Next
+			</button>
+		</center>
+  </ion-content>
+</ion-view>
