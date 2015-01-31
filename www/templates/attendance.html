@@ -1,16 +1,17 @@
-<div class="bar bar-header bar-royal">
-	<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
-  <div class="h1 title">Attendance</div>
-</div>
-
-
-<ion-view hide-back-button="true">
+<ion-view title="Course">
+  <ion-header-bar align-title="center" class="bar-dark">
+     <div class="buttons">
+     	<button class="button button-icon ion-navicon" menu-toggle="left">
+  	</button>
+  </div>
+  <h1 class="title">Courses</h1>
+  </ion-header-bar>
   <ion-content class="has-header">
   	<center style="margin-bottom:30px;"><h4>Welcome <b> John Smith</b></h4></center>
-  	<!-- Semester Selection -->
-  	<div class="options-cont">
-  		<p class="select-box-title" ></p>
-	    <div id="selectSemester" class="select-box-cont" ng-click="showSemester(); $event.stopPropagation(); ">
+  		<!-- Semester Selection -->
+  		<div class="options-cont">
+  			<p class="select-box-title" ></p>
+	    	<div id="selectSemester" class="select-box-cont" ng-click="showSemester(); $event.stopPropagation(); ">
 				<p class="selected-opt-val" >
 					{{selectedSemesterVal || semester[0].name}}
 				</p>

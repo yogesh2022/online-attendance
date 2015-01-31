@@ -1,8 +1,9 @@
-<ion-side-menus>
-  <ion-pane ion-side-menu-content drag-content="main.isDragable" ng-click="changeClass()">
-    <ion-nav-view name="menuContent" animation="slide-in-right"></ion-nav-view>
-  </ion-pane>
-  <ion-side-menu side="left" width="60">
+<ion-side-menus enable-menu-with-back-views="true">
+  <ion-side-menu-content drag-content="main.isDragable">
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu width="60" side="left">
     <ion-content>
       <ion-list>
         <ion-item nav-clear menu-close href="#/app/attendance">

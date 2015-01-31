@@ -27,13 +27,13 @@
     },
     "installed_plugins": {
         "com.ionic.keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.onlineattendance326132"
+            "PACKAGE_NAME": "com.ionicframework.sampleapp966821"
         },
         "org.apache.cordova.console": {
-            "PACKAGE_NAME": "com.ionicframework.onlineattendance326132"
+            "PACKAGE_NAME": "com.ionicframework.sampleapp966821"
         },
         "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.ionicframework.onlineattendance326132"
+            "PACKAGE_NAME": "com.ionicframework.sampleapp966821"
         }
     },
     "dependent_plugins": {}

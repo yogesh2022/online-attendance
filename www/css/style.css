@@ -1,12 +1,6 @@
 /* Empty. Add your own CSS if you like */
-.bar-stable .button{
-	color:#fff;
-}
-.bar-stable .button:hover{
-	color:#f2f2f2;
-}
-.bar-stable .button:active{
-	color:#f2f2f2;
+.bar.bar-dark{
+	background-color:#193441;
 }
 #header-logo{
 	margin:20px auto;
@@ -20,10 +14,14 @@
 	background-color: #fff;
 	width:93%;
 	overflow:auto;
-	margin:0 auto;
+	margin:0 auto 30px;
 	padding:16px;
 	border-radius:5px;
 	-webkit-border-radius:5px;
+}
+#login-form-cont .button{
+	line-height:38px;
+	min-height:42px;
 }
 .info{
 	text-align: center;

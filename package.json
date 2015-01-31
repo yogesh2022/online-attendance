@@ -1,7 +1,7 @@
 {
-  "name": "online-attendance",
+  "name": "sample-app",
   "version": "1.0.0",
-  "description": "Online-Attendance: An Ionic project",
+  "description": "sample-app: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^0.7.1",

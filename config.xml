@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.onlineattendance326132" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Online-Attendance</name>
+<widget id="com.ionicframework.sampleapp966821" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>SSC-Attendance</name>
   <description>
         An Ionic Framework and Cordova project.
     </description>
@@ -9,15 +9,10 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
-  <preference name="fullscreen" value="true"/>
-  <preference name="Orientation" value="portrait"/>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
-  <preference name="DisallowOverscroll" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
   <preference name="BackupWebStorage" value="none"/>
-  <preference name="StatusBarOverlaysWebView" value="true"/>
-  <preference name="StatusBarBackgroundColor" value="#000000"/>
-  <preference name="StatusBarStyle" value="lightcontent"/>
   <icon src="/res/android/icon-36-ldpi.png" density="ldpi"/>
   <icon src="/res/android/icon-48-mdpi.png" density="mdpi"/>
   <icon src="/res/android/icon-72-hdpi.png" density="hdpi"/>
